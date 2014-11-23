@@ -8,14 +8,12 @@
 #include <FMX.Forms.hpp>
 #include <FMX.StdCtrls.hpp>
 #include <FMX.Types.hpp>
-#include <FMX.WebBrowser.hpp>
 //---------------------------------------------------------------------------
 class TForm1 : public TForm
 {
 __published:	// IDE-managed Components
 	TButton *Êíîïêà;
 	TButton *Button1;
-	TWebBrowser *WebBrowser1;
 	void __fastcall ÊíîïêàClick(TObject *Sender);
 	void __fastcall Button1Click(TObject *Sender);
 private:	// User declarations
