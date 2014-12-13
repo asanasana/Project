@@ -9,26 +9,32 @@
   FormFactor.Devices = [Desktop]
   DesignerMobile = True
   DesignerWidth = 384
-  DesignerHeight = 567
-  DesignerDeviceName = ''
+  DesignerHeight = 592
+  DesignerDeviceName = 'Google Nexus 4'
   DesignerOrientation = 0
   DesignerOSVersion = ''
   object Кнопка: TButton
-    Height = 57.000000000000000000
-    Position.X = 8.000000000000000000
+    Height = 49.000000000000000000
+    Position.X = 16.000000000000000000
     Position.Y = 16.000000000000000000
     TabOrder = 1
     Text = #1047#1072#1087#1091#1089#1082
-    Width = 113.000000000000000000
+    Width = 161.000000000000000000
     OnClick = КнопкаClick
   end
   object Button1: TButton
-    Height = 22.000000000000000000
-    Position.X = 144.000000000000000000
+    Height = 44.000000000000000000
+    Position.X = 200.000000000000000000
     Position.Y = 24.000000000000000000
-    TabOrder = 3
+    TabOrder = 2
     Text = 'Button1'
-    Width = 80.000000000000000000
+    Width = 161.000000000000000000
     OnClick = Button1Click
+  end
+  object WebBrowser1: TWebBrowser
+    Height = 257.000000000000000000
+    Position.X = 40.000000000000000000
+    Position.Y = 96.000000000000000000
+    Width = 281.000000000000000000
   end
 end

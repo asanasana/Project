@@ -21,7 +21,6 @@ void __fastcall TForm1:: ÌÓÔÍ‡Click(TObject *Sender)
 //---------------------------------------------------------------------------
 void __fastcall TForm1::Button1Click(TObject *Sender)
 {
-  //new code
+// new but
 }
 //---------------------------------------------------------------------------
-
