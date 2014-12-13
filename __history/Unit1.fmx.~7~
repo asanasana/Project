@@ -43,7 +43,6 @@
       Position.Y = -96.000000000000000000
       Text = '<-'
       Width = 33.000000000000000000
-      OnClick = SpeedButton1Click
     end
   end
   object SpeedButton2: TSpeedButton
@@ -51,7 +50,6 @@
     Position.X = 32.000000000000000000
     Text = '->'
     Width = 33.000000000000000000
-    OnClick = SpeedButton2Click
   end
   object SpeedButton3: TSpeedButton
     Height = 22.000000000000000000

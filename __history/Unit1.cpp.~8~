@@ -82,15 +82,15 @@ Histor->go(-1);
 void __fastcall TForm1::SpeedButton2Click(TObject *Sender)
 {
 Variant Doc, Histor ;
-Doc:= WebBrowser1->OleObject->document;  //Ссылаемся на интерфейс документа;
+Doc:= WebBrowser1.OleObject.document;  //Ссылаемся на интерфейс документа;
 
 if (TVarData(Doc)->VDispatch = nil ) Exit;  //Если документ отсутствует, тогда выходим;
 
-Histor:=Doc->parentWindow->history;  {Объект документа - объект родительского окна - объект содержащий
+Histor:=Doc.parentWindow.history;  {Объект документа - объект родительского окна - объект содержащий
 
 историю переходов Шаг вперед к предыдущему URL.};
 
-Histor->go(1);
+Histor.go(1);
 
 }
 //---------------------------------------------------------------------------
