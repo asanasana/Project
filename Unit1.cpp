@@ -14,7 +14,7 @@ __fastcall TForm1::TForm1(TComponent* Owner)
 {
 }
 //---------------------------------------------------------------------------
-void __fastcall TForm1:: ÌÓÔÍ‡Click(TObject *Sender)
+void __fastcall TForm1::√ä√≠√Æ√Ø√™√†Click(TObject *Sender)
 {
 /////ADD BUTTON
 }
@@ -22,6 +22,7 @@ void __fastcall TForm1:: ÌÓÔÍ‡Click(TObject *Sender)
 void __fastcall TForm1::Button1Click(TObject *Sender)
 {
   //new code
+  //new code2
 }
 //---------------------------------------------------------------------------
 
