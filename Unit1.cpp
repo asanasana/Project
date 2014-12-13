@@ -57,7 +57,7 @@ void __fastcall TForm1::ComboBox1KeyDown(TObject *Sender, WORD &Key, System::Wid
   ComboBox1.Items.Add(a);
  }
 
-
+// необходимо добавить популярные новостные поисковики
 
 }
 //---------------------------------------------------------------------------
