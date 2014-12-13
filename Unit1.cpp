@@ -114,3 +114,22 @@ WebBrowser1.Refresh;
 }
 //---------------------------------------------------------------------------
 
+void __fastcall TForm1::SpeedButton5Click(TObject *Sender)
+{
+WebBrowser1.GoHome;
+
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::SpeedButton4Click(TObject *Sender)
+{
+WebBrowser1.Stop;
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::SpeedButton3Click(TObject *Sender)
+{
+WebBrowser1.Refresh;
+}
+//---------------------------------------------------------------------------
+

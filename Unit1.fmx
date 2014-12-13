@@ -59,6 +59,7 @@
     Position.Y = 8.000000000000000000
     Text = '3'
     Width = 80.000000000000000000
+    OnClick = SpeedButton3Click
   end
   object SpeedButton4: TSpeedButton
     Height = 22.000000000000000000
@@ -66,6 +67,7 @@
     Position.Y = 8.000000000000000000
     Text = '4'
     Width = 80.000000000000000000
+    OnClick = SpeedButton4Click
   end
   object SpeedButton5: TSpeedButton
     Height = 22.000000000000000000
@@ -73,6 +75,7 @@
     Position.Y = 8.000000000000000000
     Text = '5'
     Width = 80.000000000000000000
+    OnClick = SpeedButton5Click
   end
   object SpeedButton6: TSpeedButton
     Height = 22.000000000000000000
