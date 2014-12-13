@@ -7,7 +7,6 @@
   FormFactor.Width = 320
   FormFactor.Height = 480
   FormFactor.Devices = [Desktop]
-  OnCreate = FormCreate
   DesignerMobile = True
   DesignerWidth = 384
   DesignerHeight = 567
@@ -37,47 +36,26 @@
     Position.X = 24.000000000000000000
     Position.Y = 96.000000000000000000
     Width = 321.000000000000000000
-    object SpeedButton1: TSpeedButton
-      Height = 33.000000000000000000
+    object CornerButton1: TCornerButton
+      Height = 25.000000000000000000
       Position.X = -24.000000000000000000
       Position.Y = -96.000000000000000000
+      Sides = [Top, Left, Bottom, Right]
+      TabOrder = 0
       Text = '<-'
       Width = 33.000000000000000000
+      XRadius = 3.000000000000000000
+      YRadius = 3.000000000000000000
     end
   end
-  object SpeedButton2: TSpeedButton
-    Height = 33.000000000000000000
+  object CornerButton2: TCornerButton
+    Height = 25.000000000000000000
     Position.X = 32.000000000000000000
+    Sides = [Top, Left, Bottom, Right]
+    TabOrder = 5
     Text = '->'
     Width = 33.000000000000000000
-  end
-  object SpeedButton3: TSpeedButton
-    Height = 22.000000000000000000
-    Position.X = 88.000000000000000000
-    Position.Y = 8.000000000000000000
-    Text = '3'
-    Width = 80.000000000000000000
-  end
-  object SpeedButton4: TSpeedButton
-    Height = 22.000000000000000000
-    Position.X = 176.000000000000000000
-    Position.Y = 16.000000000000000000
-    Text = '4'
-    Width = 80.000000000000000000
-  end
-  object SpeedButton5: TSpeedButton
-    Height = 22.000000000000000000
-    Position.X = 232.000000000000000000
-    Position.Y = 32.000000000000000000
-    Text = '5'
-    Width = 80.000000000000000000
-  end
-  object SpeedButton6: TSpeedButton
-    Height = 22.000000000000000000
-    Position.X = 224.000000000000000000
-    Position.Y = 56.000000000000000000
-    Text = '6'
-    Width = 80.000000000000000000
-    OnClick = SpeedButton6Click
+    XRadius = 3.000000000000000000
+    YRadius = 3.000000000000000000
   end
 end

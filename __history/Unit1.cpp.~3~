@@ -4,7 +4,6 @@
 #pragma hdrstop
 
 #include "Unit1.h"
-#include "string.h"
 //---------------------------------------------------------------------------
 #pragma package(smart_init)
 #pragma resource "*.fmx"
@@ -15,7 +14,7 @@ __fastcall TForm1::TForm1(TComponent* Owner)
 {
 }
 //---------------------------------------------------------------------------
-void __fastcall TForm1::КнопкаClick(TObject *Sender)
+void __fastcall TForm1::ГЉГ­Г®ГЇГЄГ Click(TObject *Sender)
 {
 /////ADD BUTTON
 }
@@ -23,24 +22,7 @@ void __fastcall TForm1::КнопкаClick(TObject *Sender)
 void __fastcall TForm1::Button1Click(TObject *Sender)
 {
   //new code
-}
-//---------------------------------------------------------------------------
-
-void __fastcall TForm1::FormCreate(TObject *Sender)
-{
-Form1->WebBrowser1->Navigate('http://www.google.com');
-}
-//---------------------------------------------------------------------------
-
-void __fastcall TForm1::SpeedButton6Click(TObject *Sender)
-{
-string a;
-WebBrowser1.Navigate(ComboBox1.Text);  // Передаем в поиск, введенный адрес из ComboBox1;
-
-a:=ComboBox1.text;  // Записываем параллельно этот адрес в переменную;
-
-ComboBox1.Items.Add(a);  // Загружаем введенное в список  ComboBox1;
-
+  //new code2
 }
 //---------------------------------------------------------------------------
 

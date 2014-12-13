@@ -35,11 +35,6 @@ Form1->WebBrowser1->Navigate('http://www.google.com');
 void __fastcall TForm1::SpeedButton6Click(TObject *Sender)
 {
 string a;
-WebBrowser1.Navigate(ComboBox1.Text);  // Передаем в поиск, введенный адрес из ComboBox1;
-
-a:=ComboBox1.text;  // Записываем параллельно этот адрес в переменную;
-
-ComboBox1.Items.Add(a);  // Загружаем введенное в список  ComboBox1;
 
 }
 //---------------------------------------------------------------------------
