@@ -28,10 +28,6 @@ __published:	// IDE-managed Components
 	TSpeedButton *SpeedButton8;
 	TSpeedButton *SpeedButton9;
 	TSpeedButton *SpeedButton10;
-	TSpeedButton *SpeedButton11;
-	TSpeedButton *SpeedButton12;
-	TSpeedButton *SpeedButton13;
-	TSpeedButton *SpeedButton14;
 	void __fastcall  ÌÓÔÍ‡Click(TObject *Sender);
 	void __fastcall Button1Click(TObject *Sender);
 	void __fastcall FormCreate(TObject *Sender);
