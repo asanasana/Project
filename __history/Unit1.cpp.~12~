@@ -145,15 +145,3 @@ void __fastcall TForm1::SpeedButton8Click(TObject *Sender)
 }
 //---------------------------------------------------------------------------
 
-void __fastcall TForm1::SpeedButton9Click(TObject *Sender)
-{
-  if (OpenDialog1->Execute)
-  {
-   WebBrowser1->Navigate(OpenDialog1->FileName);
-
-   ComboBox1->Text:=OpenDialog1->FileName;
-  }
-
-}
-//---------------------------------------------------------------------------
-
