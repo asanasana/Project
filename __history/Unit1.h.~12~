@@ -47,7 +47,6 @@ __published:	// IDE-managed Components
 	void __fastcall SpeedButton8Click(TObject *Sender);
 	void __fastcall SpeedButton9Click(TObject *Sender);
 	void __fastcall SpeedButton10Click(TObject *Sender);
-	void __fastcall SpeedButton11Click(TObject *Sender);
 private:	// User declarations
 public:		// User declarations
 	__fastcall TForm1(TComponent* Owner);

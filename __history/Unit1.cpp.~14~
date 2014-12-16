@@ -165,13 +165,3 @@ WebBrowser1->ExecWB(OLECMDID_SAVEAS, OLECMDEXECOPT_DODEFAULT);
 }
 //---------------------------------------------------------------------------
 
-
-void __fastcall TForm1::SpeedButton11Click(TObject *Sender)
-{
-OLEvariant PostData, Headers ;
- WebBrowser1->ExecWB(OLECMDID_PRINT, OLECMDEXECOPT_DODEFAULT, PostData, Headers);
- //Печатаем содержимое TWebBrowser;
-
-}
-//---------------------------------------------------------------------------
-
