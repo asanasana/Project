@@ -94,11 +94,4 @@
     Width = 100.000000000000000000
     OnKeyDown = ComboBox1KeyDown
   end
-  object SpeedButton7: TSpeedButton
-    Height = 22.000000000000000000
-    Position.Y = 40.000000000000000000
-    Text = '7'
-    Width = 41.000000000000000000
-    OnClick = SpeedButton7Click
-  end
 end

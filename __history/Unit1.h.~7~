@@ -24,7 +24,6 @@ __published:	// IDE-managed Components
 	TSpeedButton *SpeedButton5;
 	TSpeedButton *SpeedButton6;
 	TComboBox *ComboBox1;
-	TSpeedButton *SpeedButton7;
 	void __fastcall  ÌÓÔÍ‡Click(TObject *Sender);
 	void __fastcall Button1Click(TObject *Sender);
 	void __fastcall FormCreate(TObject *Sender);
@@ -36,7 +35,6 @@ __published:	// IDE-managed Components
 	void __fastcall SpeedButton5Click(TObject *Sender);
 	void __fastcall SpeedButton4Click(TObject *Sender);
 	void __fastcall SpeedButton3Click(TObject *Sender);
-	void __fastcall SpeedButton7Click(TObject *Sender);
 private:	// User declarations
 public:		// User declarations
 	__fastcall TForm1(TComponent* Owner);
