@@ -139,9 +139,3 @@ void __fastcall TForm1::SpeedButton7Click(TObject *Sender)
 }
 //---------------------------------------------------------------------------
 
-void __fastcall TForm1::SpeedButton8Click(TObject *Sender)
-{
-  WebBrowser1->Refresh;
-}
-//---------------------------------------------------------------------------
-
