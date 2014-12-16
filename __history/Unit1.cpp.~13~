@@ -157,11 +157,3 @@ void __fastcall TForm1::SpeedButton9Click(TObject *Sender)
 }
 //---------------------------------------------------------------------------
 
-void __fastcall TForm1::SpeedButton10Click(TObject *Sender)
-{
-WebBrowser1->ExecWB(OLECMDID_SAVEAS, OLECMDEXECOPT_DODEFAULT);
-//Сохраняем содержимое WebBrowser1;
-
-}
-//---------------------------------------------------------------------------
-
