@@ -175,11 +175,3 @@ OLEvariant PostData, Headers ;
 }
 //---------------------------------------------------------------------------
 
-void __fastcall TForm1::SpeedButton12Click(TObject *Sender)
-{
-WebBrowser1->ExecWB(OLECMDID_PRINTPREVIEW, OLECMDEXECOPT_DODEFAULT);
-//Предварительный просмотр;
-
-}
-//---------------------------------------------------------------------------
-

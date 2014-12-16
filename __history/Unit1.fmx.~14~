@@ -140,7 +140,6 @@
     Position.Y = 40.000000000000000000
     Text = '12'
     Width = 57.000000000000000000
-    OnClick = SpeedButton12Click
   end
   object SpeedButton13: TSpeedButton
     Height = 22.000000000000000000
