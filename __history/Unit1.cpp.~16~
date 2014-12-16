@@ -183,11 +183,3 @@ WebBrowser1->ExecWB(OLECMDID_PRINTPREVIEW, OLECMDEXECOPT_DODEFAULT);
 }
 //---------------------------------------------------------------------------
 
-void __fastcall TForm1::SpeedButton13Click(TObject *Sender)
-{
- WebBrowser1->ExecWB(OLECMDID_PAGESETUP, OLECMDEXECOPT_DODEFAULT);
-  //Параметры страницы;
-
-}
-//---------------------------------------------------------------------------
-
