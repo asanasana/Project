@@ -167,7 +167,7 @@
   end
   object SpeedButton16: TSpeedButton
     Height = 22.000000000000000000
-    Position.X = 312.000000000000000000
+    Position.X = 304.000000000000000000
     Position.Y = 40.000000000000000000
     Text = '16'
     Width = 80.000000000000000000
