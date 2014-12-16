@@ -191,11 +191,3 @@ void __fastcall TForm1::SpeedButton13Click(TObject *Sender)
 }
 //---------------------------------------------------------------------------
 
-void __fastcall TForm1::SpeedButton14Click(TObject *Sender)
-{
-WebBrowser1->ExecWB(OLECMDID_FIND, OLECMDEXECOPT_DODEFAULT);
- //Поиск слов на сайте;
-
-}
-//---------------------------------------------------------------------------
-

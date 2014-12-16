@@ -156,6 +156,5 @@
     Position.Y = 40.000000000000000000
     Text = '14'
     Width = 64.000000000000000000
-    OnClick = SpeedButton14Click
   end
 end
