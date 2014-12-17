@@ -24,21 +24,22 @@ void TForm1.SaveHTMLSourceToFile(const FileName: string; WB: TWebBrowser)
 
  FileStream=TFileStream->Create(FileName, fmCreate);
 
+
 try
 
-Stream := TStreamAdapter.Create(FileStream, soReference) as IStream;
+Stream=TStreamAdapter.Create(FileStream, soReference) as IStream;
 
-SaveResult := PersistStream.Save(Stream, True);
+SaveResult=PersistStream.Save(Stream, True);
 
-if FAILED(SaveResult) then
+if (FAILED(SaveResult)) {
 
 MessageBox(Handle, 'Fail to save HTML source', 'Error', 0);
 
 finally
 
 FileStream.Free;
+}
 
-end;
 }
 
 
