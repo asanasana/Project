@@ -242,3 +242,13 @@ SaveHTMLSourceToFile(SaveDialog1.FileName, WebBrowser1);
 }
 //---------------------------------------------------------------------------
 
+void __fastcall TForm1::SpeedButton16Click(TObject *Sender)
+{
+ProgressBar1->Max=ProgressMax;
+ProgressBar1->Position=Progress;
+StatusBar1->Panels[0].tex=text;
+if (SaveDialog1->Execute) then
+SaveHTMLSourceToFile(SaveDialog1->FileName, WebBrowser1);
+}
+//---------------------------------------------------------------------------
+
