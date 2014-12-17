@@ -52,7 +52,7 @@ __fastcall TForm1::TForm1(TComponent* Owner)
 //---------------------------------------------------------------------------
 void __fastcall TForm1::КнопкаClick(TObject *Sender)
 {
-/////ADD BUTTON
+ Form1->Close;
 }
 //---------------------------------------------------------------------------
 void __fastcall TForm1::Button1Click(TObject *Sender)
@@ -70,11 +70,11 @@ Form1->WebBrowser1->Navigate('http://www.google.com');
 void __fastcall TForm1::SpeedButton6Click(TObject *Sender)
 {
 string a;
-WebBrowser1.Navigate(ComboBox1.Text);  // Передаем в поиск, введенный адрес из ComboBox1;
+WebBrowser1->Navigate(ComboBox1->Text);  // Передаем в поиск, введенный адрес из ComboBox1;
 
-a:=ComboBox1.text;  // Записываем параллельно этот адрес в переменную;
+a=ComboBox1->text;  // Записываем параллельно этот адрес в переменную;
 
-ComboBox1.Items.Add(a);  // Загружаем введенное в список  ComboBox1;
+ComboBox1->Items->Add(a);  // Загружаем введенное в список  ComboBox1;
 
 }
 //---------------------------------------------------------------------------
@@ -85,11 +85,11 @@ void __fastcall TForm1::ComboBox1KeyDown(TObject *Sender, WORD &Key, System::Wid
  string a;
  if (Key=#13)
  {
-  WebBrowser1.Navigate(ComboBox1.Text);
+  WebBrowser1->Navigate(ComboBox1.Text);
 
-  a:=ComboBox1.text;
+  a=ComboBox1->text;
 
-  ComboBox1.Items.Add(a);
+  ComboBox1->Items->Add(a);
  }
 
 // необходимо добавить популярные новостные поисковики
