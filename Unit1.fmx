@@ -87,7 +87,7 @@
   object ComboBox1: TComboBox
     DisableFocusEffect = False
     Height = 22.000000000000000000
-    Position.X = 264.000000000000000000
+    Position.X = 248.000000000000000000
     Position.Y = 72.000000000000000000
     TabOrder = 10
     Width = 100.000000000000000000
