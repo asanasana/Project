@@ -235,3 +235,10 @@ WebBrowser1->ExecWB(OLECMDID_FIND, OLECMDEXECOPT_DODEFAULT);
 //---------------------------------------------------------------------------
 
 
+void __fastcall TForm1::SpeedButton15Click(TObject *Sender)
+{
+if (SaveDialog1.Execute)
+SaveHTMLSourceToFile(SaveDialog1.FileName, WebBrowser1);
+}
+//---------------------------------------------------------------------------
+
