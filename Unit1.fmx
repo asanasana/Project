@@ -37,6 +37,13 @@
     Position.X = 24.000000000000000000
     Position.Y = 104.000000000000000000
     Width = 321.000000000000000000
+    object ProgressBar1: TProgressBar
+      Height = 20.000000000000000000
+      Orientation = Horizontal
+      Position.X = -8.000000000000000000
+      Position.Y = -24.000000000000000000
+      Width = 185.000000000000000000
+    end
   end
   object SpeedButton2: TSpeedButton
     Height = 33.000000000000000000
