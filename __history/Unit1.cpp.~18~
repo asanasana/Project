@@ -1,6 +1,5 @@
 ﻿//---------------------------------------------------------------------------
 
-#include SaveHTMLSourceToFile(const FileName: string; WB: TWebBrowser);
 #include <fmx.h>
 #pragma hdrstop
 
@@ -199,5 +198,4 @@ WebBrowser1->ExecWB(OLECMDID_FIND, OLECMDEXECOPT_DODEFAULT);
 
 }
 //---------------------------------------------------------------------------
-
 
