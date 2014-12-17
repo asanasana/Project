@@ -1,7 +1,7 @@
 ﻿object Form1: TForm1
   Left = 0
   Top = 0
-  Caption = 'Form1'
+  Caption = #1041#1088#1072#1091#1079#1077#1088' '#1040#1083#1094#1091#1088
   ClientHeight = 567
   ClientWidth = 384
   FormFactor.Width = 320
@@ -41,7 +41,7 @@
       Height = 20.000000000000000000
       Orientation = Horizontal
       Position.X = -8.000000000000000000
-      Position.Y = -24.000000000000000000
+      Position.Y = -32.000000000000000000
       Width = 185.000000000000000000
     end
   end
