@@ -9,39 +9,6 @@
 //---------------------------------------------------------------------------
 #pragma package(smart_init)
 #pragma resource "*.fmx"
-
-void TForm1.SaveHTMLSourceToFile(const FileName: string; WB: TWebBrowser)
-{
- IPersistStreamInit PersistStream;
-
- TFileStream FileStream;
-
- IStream Stream;
-
- HRESULT SaveResult;
-
- PersistStream=WB->Document as IPersistStreamInit;
-
- FileStream=TFileStream->Create(FileName, fmCreate);
-
-try
-
-Stream := TStreamAdapter.Create(FileStream, soReference) as IStream;
-
-SaveResult := PersistStream.Save(Stream, True);
-
-if FAILED(SaveResult) then
-
-MessageBox(Handle, 'Fail to save HTML source', 'Error', 0);
-
-finally
-
-FileStream.Free;
-
-end;
-}
-
-
 TForm1 *Form1;
 //---------------------------------------------------------------------------
 __fastcall TForm1::TForm1(TComponent* Owner)
