@@ -36,6 +36,7 @@ __published:	// IDE-managed Components
 	TSpeedButton *SpeedButton16;
 	TProgressBar *ProgressBar1;
 	TImageControl *ImageControl1;
+	TImageControl *ImageControl2;
 	void __fastcall  ÌÓÔÍ‡Click(TObject *Sender);
 	void __fastcall Button1Click(TObject *Sender);
 	void __fastcall FormCreate(TObject *Sender);
