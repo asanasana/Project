@@ -10,6 +10,7 @@
 #include <FMX.Types.hpp>
 #include <FMX.WebBrowser.hpp>
 #include <FMX.ListBox.hpp>
+#include <FMX.Ani.hpp>
 //---------------------------------------------------------------------------
 class TForm1 : public TForm
 {
@@ -35,6 +36,25 @@ __published:	// IDE-managed Components
 	TSpeedButton *SpeedButton15;
 	TSpeedButton *SpeedButton16;
 	TProgressBar *ProgressBar1;
+	TImageControl *ImageControl1;
+	TImageControl *ImageControl2;
+	TBitmapAnimation *BitmapAnimation1;
+	TImageControl *ImageControl3;
+	TImageControl *ImageControl4;
+	TImageControl *ImageControl5;
+	TImageControl *ImageControl6;
+	TImageControl *ImageControl7;
+	TImageControl *ImageControl8;
+	TImageControl *ImageControl9;
+	TImageControl *ImageControl10;
+	TImageControl *ImageControl11;
+	TImageControl *ImageControl12;
+	TImageControl *ImageControl13;
+	TImageControl *ImageControl14;
+	TImageControl *ImageControl15;
+	TImageControl *ImageControl16;
+	TImageControl *ImageControl17;
+	TImageControl *ImageControl18;
 	void __fastcall  ÌÓÔÍ‡Click(TObject *Sender);
 	void __fastcall Button1Click(TObject *Sender);
 	void __fastcall FormCreate(TObject *Sender);

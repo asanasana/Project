@@ -11,6 +11,7 @@
 #include <FMX.WebBrowser.hpp>
 #include <FMX.ListBox.hpp>
 #include <FMX.Ani.hpp>
+#include <FMX.Edit.hpp>
 //---------------------------------------------------------------------------
 class TForm1 : public TForm
 {
@@ -55,6 +56,7 @@ __published:	// IDE-managed Components
 	TImageControl *ImageControl16;
 	TImageControl *ImageControl17;
 	TImageControl *ImageControl18;
+	TEdit *Edit1;
 	void __fastcall  ÌÓÔÍ‡Click(TObject *Sender);
 	void __fastcall Button1Click(TObject *Sender);
 	void __fastcall FormCreate(TObject *Sender);
