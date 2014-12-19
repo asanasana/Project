@@ -10,6 +10,7 @@
 #include <FMX.Types.hpp>
 #include <FMX.WebBrowser.hpp>
 #include <FMX.ListBox.hpp>
+#include <FMX.Ani.hpp>
 //---------------------------------------------------------------------------
 class TForm1 : public TForm
 {
@@ -37,6 +38,7 @@ __published:	// IDE-managed Components
 	TProgressBar *ProgressBar1;
 	TImageControl *ImageControl1;
 	TImageControl *ImageControl2;
+	TBitmapAnimation *BitmapAnimation1;
 	void __fastcall  ÌÓÔÍ‡Click(TObject *Sender);
 	void __fastcall Button1Click(TObject *Sender);
 	void __fastcall FormCreate(TObject *Sender);
