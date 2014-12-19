@@ -34,13 +34,15 @@
   end
   object WebBrowser1: TWebBrowser
     Height = 305.000000000000000000
-    Position.Y = 104.000000000000000000
-    Width = 361.000000000000000000
+    Position.X = 24.000000000000000000
+    Position.Y = 160.000000000000000000
+    Width = 321.000000000000000000
     object ProgressBar1: TProgressBar
-      Height = 25.000000000000000000
+      Height = 20.000000000000000000
       Orientation = Horizontal
-      Position.Y = -24.000000000000000000
-      Width = 233.000000000000000000
+      Position.X = -8.000000000000000000
+      Position.Y = -80.000000000000000000
+      Width = 185.000000000000000000
     end
   end
   object SpeedButton2: TSpeedButton
@@ -84,11 +86,11 @@
   end
   object ComboBox1: TComboBox
     DisableFocusEffect = False
-    Height = 25.000000000000000000
-    Position.X = 232.000000000000000000
-    Position.Y = 80.000000000000000000
+    Height = 22.000000000000000000
+    Position.X = 248.000000000000000000
+    Position.Y = 72.000000000000000000
     TabOrder = 10
-    Width = 129.000000000000000000
+    Width = 100.000000000000000000
     OnKeyDown = ComboBox1KeyDown
   end
   object SpeedButton7: TSpeedButton
@@ -541,12 +543,5 @@
     Position.X = 320.000000000000000000
     TabOrder = 20
     Width = 41.000000000000000000
-  end
-  object ImageControl10: TImageControl
-    Height = 41.000000000000000000
-    Position.X = -8.000000000000000000
-    Position.Y = 40.000000000000000000
-    TabOrder = 21
-    Width = 49.000000000000000000
   end
 end
