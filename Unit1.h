@@ -39,6 +39,12 @@ __published:	// IDE-managed Components
 	TImageControl *ImageControl1;
 	TImageControl *ImageControl2;
 	TBitmapAnimation *BitmapAnimation1;
+	TImageControl *ImageControl3;
+	TImageControl *ImageControl4;
+	TImageControl *ImageControl5;
+	TImageControl *ImageControl6;
+	TImageControl *ImageControl7;
+	TImageControl *ImageControl8;
 	void __fastcall  ÌÓÔÍ‡Click(TObject *Sender);
 	void __fastcall Button1Click(TObject *Sender);
 	void __fastcall FormCreate(TObject *Sender);
