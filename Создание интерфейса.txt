@@ -1,0 +1,82 @@
+1. Charge interface - providing interaction
+
+Interfaces are provided for interaction between people and the environment. They help us to clarify, illuminate, implement and monitor the relationship; they can unite and divide us, to influence our expectations; and in addition, they give us access to various services. Do not take the process of developing an interface for art in its purest form, and the interface itself - for some art object. The interfaces are designed to perform specific functions, and their performance can be measured. But also one of only a utilitarian role on the interfaces can not be reduced. Really good interfaces can inspire, awaken, mystery envelop and strengthen our relationship with the world.
+
+
+2. Clarity primarily
+
+Any interface should first be understood. To effectively use interface designed by you, people should understand that he is is why they use it, what tasks they can perform with it, what will this or that action - and then they will be able to successfully interact with it. Yes, to understand interface, the first time can be difficult, but ambiguities in it has no place. User interface is trusted and therefore, more likely to be using it in the future. In general, instead of shoving everything on one screen and thereby confuse users, it is better to make hundreds of clear screens.
+
+3. Attention all costs
+
+We always something distracting. Even the quiet reading is no longer possible without something that is not distracted from the case. The user's attention is priceless. Give it a focus, do not abuse the application elements, distracting attention from the main purpose of a screen you created. If users need to read something, give them enough time to do so, and then displays advertisements, if necessary. Appreciate the attention of your users from this benefit will they and you. To ensure the use of the product users' attention - a vital factor. Try to keep it at any cost.
+
+4. Under the supervision of users
+
+People like to feel in control of the situation. Many developers have not thought about it, and as a result users are forced against their will to perform the operations that they were not going to make, and the direction of their movement is very clear, and the results of action - unexpected. Give users feel that the situation is under their control, periodically displaying system status, describing causal relationships (if you do this, then something will happen) and helping them clear what to expect from each particular operation. And do not be afraid to be captain obvious. The obvious is not always so obvious.
+
+5. Better control - direct management
+
+Best interface - no interface: for example, with real world objects we interact directly. But gradually appears more and more digital objects of nature that can not be controlled directly, and here we come to the aid interfaces. Very easy to stray from the right path and eventually overwhelm the interface buttons, trinkets, graphics, options, settings, windows, additional inserts and other "rubbish". As a result, users are forced to perform tasks instead of watching and control interface elements. To avoid this, take a sample of direct control: the interface should be as invisible and able to recognize natural human gestures. Ideally, users should see the feeling that they control the object directly.
+
+6. One screen - one main task
+
+Each screen application should be used to perform a single task facing users. So users of the application will be easier to understand it and work with it, and developers - to expand its functionality as needed. Screen, supports the implementation of several major tasks knock users confused. It is obvious that, for example, the text can not contain two or three main themes - the main theme can be only one. And designers should lay on each screen the ability to perform only one key problem.
+
+7. The secondary task, know your place
+
+Apart from any one key task screens can also be used to perform several minor problems. But it is important to remember that the major and minor tasks can not be lumped together. You, for example, writing an article, not in order that users share it in Twitter, right? Your main task in this case - that they have read and understood it read. Secondary objectives should not come to the fore: for example, they can be made less noticeable way or displayed only after the key task was performed.
+
+8. Place for a step forward
+
+Because most people are not terminated by a process of interaction and sequentially into each other, very wisely will be designed for each operation any extension. Try to imagine what the next step of users in each case, and build an interface in accordance with it. As in the usual human communication is needed here a starting point for further interaction. If users have already done all that was required, do not throw them, give them a chance to naturally take the next step towards achieving their goals.
+
+9. Conduct defines the appearance (or "Form follows function")
+
+People prefer to deal with the fact that behaves in a predictable manner: it applies equally to other people, animals, objects - including the software. When someone's behavior in line with our expectations, we feel on the right wave. Accordingly, the elements of interface design should look like according to their behavior. In practice, this means that users need to understand how to behave in this or that element of the interface, just by looking at it. Element, like a button, and that they must behave as a button. It is not necessary to flirt with the fundamental aspects of user interactions and interfaces - reserving their creative energy for problems of a different order.
+
+10. How important to be consistent
+
+From the preceding paragraph it follows that if the behavior of different screen elements, then they should look different. Of course, elements similar in behavior, and should look similar way (series). But it is equally important to disparate elements were decorated differently (ie. E. Inconsistently). Designers novice, trying to make the interface a logical and consistent, often ignore important differences between elements and use them to design the same techniques where should add variety.
+
+11. A clear hierarchy - a head
+
+Clear visual hierarchy is achieved when the elements are arranged on the screen in a certain order. I.e. the same items are displayed in the same order every time. Ill-defined visual hierarchy of no benefit and only confuses people are confused. In a constantly changing environment is not so easy to maintain a clear hierarchy of elements, because the visual weight becomes a relative value, because if all allocated, it is not allocated anything. If the screen you want to add a significant element, the designer may need to do all the other elements less visible to preserve the visual hierarchy. Most users do not think about the visual hierarchy when working with the interface, but its thoughtful (or ill-conceived) alignment - this is one of the easiest ways to improve (or worsen) design.
+
+12. Competent organization reduces the cognitive load
+
+John Maeda (John Maeda) in his book Simplicity writes that the competent organization of interface elements allows you to make the screen less busy look. With well thought-out arrangement of elements you will be able to demonstrate the connection between them, and a master of the user interface will be much easier. Group the similar elements, place them on the screen so that users became clear how they relate to each other. Thanks to the competent organization of content can significantly reduce the cognitive load of users. If the design will clearly demonstrate a link between the elements, users will not have to painfully to understand them! Do not force users to strain once again - better to just show them all these connections between the elements of the interface with your design.
+
+13. suggests, and do not show: the role of color
+
+Color physical objects varies depending on the lighting. One and the same timber, e.g., noon and sunset look completely different. In general, in the world of physical objects color includes a variety of colors and are generally quite relative, and in the interfaces color should also play a role. Color can select objects by drawing the attention of users, but the elements can not be separated only by color. If it is assumed that users will work with any element of a long time, or the same volume element contains text that should be used for decoration or pale muted tones - and bright colors reserved for accents. Of course, bright colors can be used for background fill, but only where appropriate.
+
+14. Not all at once
+
+Each screen should be displayed only the most necessary. If users need to make a choice, give them as much information as they need to do. Details can be devoted to the following screens. Do not try to explain everything from A to Z, or lay out all the information again. According to distribute workflow across multiple screens, revealing information gradually. Through this interaction with the interface is clear and comprehensible to users.
+
+15. suggests to the mind
+
+In the ideal interface tips are not necessary at all, because this interface is easy to learn and use. But if you come down from heaven to earth, ideally tips should be context-dependent and appear only when and where they need to rest while remaining hidden. Forcing people to open help and find answers to questions arising from them, you are making them difficult to work with the interface, as in this case they have to formulate what they want to find. Better incorporate hints where they may be required. Just be sure that they will not once again looming in front of the nose of users who are already familiar with the interface.
+
+16. The moment of truth: the zero state
+
+Designers often overlooked such an important time, as the first acquaintance with the interface. To help users get started as quickly as possible, the designer has to work with an eye to the zero state - a time when nothing has happened yet. The first screen that users see, must not be empty, like a blank sheet - it must contain instructions and tips to get you started. Most of the difficulty in working with the interface occurs on the basis of the zero state unconsidered. But it is necessary to understand the rules of the game users, as their task is at once much easier.
+
+17. Current problems - the main problem
+
+Users need to solve problems that are relevant at the moment, and not hypothetical questions that may arise in the future. Thus, the interface is oriented to address potential problems, no one will need: study the current situation and develop an interface in accordance with the actual problem. Head in the clouds and conjecture, of course, much more fun, but the results of your work will be in demand thanks to user, rather than sent to landfill useless interfaces.
+
+18. Best design - invisible design
+
+Interesting fact: really good design is usually not observed users who work with them. The reason is that the successful design allows users to focus on their targets rather than to use interface. Members who successfully complete their tasks, will not think about how this is so they all turned out well. It turns out that people pay attention to the design only if they are having any difficulties. Yes, the designers are not thrilled with the fact that for successful solutions no one praises, despite the fact that for the shoals of them goes to the fullest. But really good skilled enough that their design is actively used. They understand that a satisfied user - the user is silent.
+
+19. Expanding horizons
+
+Visual and graphic design, graphic design, copywriting, information architecture and visualization - all included in the design of interfaces. With these disciplines can familiarize casual, but you can delve into their study. Most importantly, do not look down on them or keep stinging debate about the importance of a particular discipline. Draw them useful knowledge - and forward. And does not shrink at first glance totally unrelated to the interface design areas. Think of something useful to learn from the publisher, the author of the code, bookbinder books, skateboarder, fireman, karate?
+
+20. Unused interface - poor interface
+
+As in other areas of design, interface design is considered a success the result of design works, which is in demand by users. People do not sit down, even in the most beautiful chair, if it would be inconvenient, and this piece of furniture does not fulfill its function as a design that users overlook. Thus, in the design of interfaces play an important role not only create the object, but also a certain use environment. The designer creates the interface is not for delight own eyes, and to enjoy them!
+
+Author: Joshua Porter
